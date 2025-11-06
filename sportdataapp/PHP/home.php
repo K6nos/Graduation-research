@@ -144,16 +144,11 @@ mysqli_close($link);
                     </div>
                 </div>
                 <div class="calendar">
-                    <h2>カレンダー２</h2>
-                    <div class="calendar-area">   
-                        <div class="">
-                            <table>
-                                
-                            </table>
-                        </div>    
-                    </div>
+                    <h2>カレンダー</h2>
+                    <div id="calendar-area" class="calendar-area"></div>
                 </div>
             </div>
         </div>
+    <script src="../js/calendar.js"></script>
     </body>
 </html>
